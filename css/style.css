@@ -1,0 +1,158 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+.header-flex {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  width: 100vw;
+  background-color: #1c243b;
+}
+.logo-1 {
+  color: white;
+  font-weight: bolder;
+  font-size: 24pt;
+  margin: 0;
+  width: 40vw;
+  padding-top: 2rem;
+}
+.nav-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 100px;
+  width: 60vw;
+  align-items: center;
+  background-color: #1c243b;
+}
+.tc-yellow {
+  color: #f9e42e;
+}
+a {
+  text-decoration: unset;
+}
+.main-flex {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  background-color: rgb(238, 238, 238);
+  padding-top: 3rem;
+  padding-left: 3rem;
+  padding-bottom: 5rem;
+}
+.aside-flex {
+  display: flex;
+  flex-direction: column;
+  width: 23vw;
+  background-color: rgb(238, 238, 238);
+}
+.articles-flex {
+  display: flex;
+  flex-direction: column;
+  width: 78vw;
+  padding-right: 2rem;
+  background-color: rgb(238, 238, 238);
+}
+.image-fit {
+  max-width: 100%;
+}
+.tc-blue {
+  color: #1c243b;
+}
+.fs-24pt {
+  font-size: 24pt;
+}
+.fs-20pt {
+  font-size: 20pt;
+}
+.fs-16pt {
+  font-size: 16pt;
+}
+.fw-bold {
+  font-weight: bold;
+}
+.pb-3rem {
+  padding-bottom: 3rem;
+}
+.pl-3rem {
+  padding-left: 3rem;
+}
+.pl-6rem {
+  padding-left: 6rem;
+}
+.no-bullet {
+  list-style-type: none;
+}
+.ta-right {
+  text-align: right;
+}
+.pl-0 {
+  padding-left: 0;
+}
+.mw-65 {
+  max-width: 65%;
+}
+img {
+  padding-left: 0rem;
+  object-fit: fill;
+}
+.drop-cap:first-letter {
+  font-size: 3rem;
+  float: left;
+  margin-top: 0rem;
+}
+.hline {
+  width: 100%;
+  height: 1px;
+  background: black;
+}
+.pt-2rem {
+  padding-top: 2rem;
+}
+.cta-signup {
+  background-color: yellow;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.button {
+  background: #033048;
+  width: 51%;
+  padding-top: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 11px;
+  border-radius: 7px;
+  text-decoration: none;
+  font-weight: bolder;
+}
+footer {
+  height: 250px;
+  width: 100vw;
+  background-color: rgb(48, 47, 47);
+  text-align: center;
+  margin: 0;
+}
+.logo-2 {
+  color: #f9e42e;
+  font-weight: bolder;
+  font-size: 24pt;
+  margin: 0;
+  padding-top: 2rem;
+}
+.tc-white {
+  color: white;
+}
+.socialtags {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.copyright {
+  color: white;
+  padding-top: 3rem;
+  font-size: 9pt;
+}
